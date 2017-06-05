@@ -1,0 +1,24 @@
+.step-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-wrapper {
+  max-width: 250px;
+  margin-left: 20px;
+  h3 {
+    margin: $small-spacing /2 0 $small-spacing /4;
+  }
+}
+
+.rules {
+  background-color: $primary-color;
+  border-radius: $base-border-radius;
+  color: $secondary-color;
+  margin-left: 0;
+  padding: $small-spacing;
+}
+
+.fa-arrow-right {
+  font-size: modular-scale(-1);
+}

@@ -6,11 +6,19 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
+    <title><%= current_page.data.title || "crossroads" %></title>
+    <%= stylesheet_link_tag "fonts" %>
+    <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "site" %>
   </head>
   <body>
     <%= yield %>
   </body>
+  <!-- <script src="http://files.keyes.ie/things/baseliner/baseliner-latest.min.js">
+</script>
+<script>
+window.onload = function() {
+    baseliner = new Baseliner();
+}
+</script> -->
 </html>

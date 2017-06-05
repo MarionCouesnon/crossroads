@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3389783, 2017-05-16T07:32:31-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Zigfrid-Regular by BORUTTA GROUP
+ * URL: https://www.myfonts.com/fonts/borutta/zigfrid/regular/
+ * 
+ * Webfont: Zigfrid-Medium by BORUTTA GROUP
+ * URL: https://www.myfonts.com/fonts/borutta/zigfrid/medium/
+ * 
+ * Webfont: Zigfrid-Light by BORUTTA GROUP
+ * URL: https://www.myfonts.com/fonts/borutta/zigfrid/light/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3389783
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Mateusz Machalski. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/33b957");
+
+  
+@font-face {font-family: 'Zigfrid-Regular';src:url('webfonts/33B957_0_unhinted_0.woff2') format('woff2'),url('webfonts/33B957_0_unhinted_0.woff') format('woff'),url('webfonts/33B957_0_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Zigfrid-Medium';src:url('webfonts/33B957_1_unhinted_0.woff2') format('woff2'),url('webfonts/33B957_1_unhinted_0.woff') format('woff'),url('webfonts/33B957_1_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Zigfrid-Light';src:url('webfonts/33B957_2_unhinted_0.woff2') format('woff2'),url('webfonts/33B957_2_unhinted_0.woff') format('woff'),url('webfonts/33B957_2_unhinted_0.ttf') format('truetype');}
+ 
