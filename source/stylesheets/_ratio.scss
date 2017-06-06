@@ -1,10 +1,8 @@
 $modular-scale-ratio: $major-third;
-$base-line-height: 28px;
-$base-font-size: 24px;
-$base-spacing: $base-line-height;
-$small-spacing: $base-line-height /2;
-
-$baseline: 38px;
+$base-font-size: 1.5em;
+$base-line-height: $base-font-size * 1.15;
+$base-spacing: $base-line-height * 1.25;
+$small-spacing: $base-line-height * 0.75;
 
 $custom-grid-large: (
   columns: 12,
@@ -14,88 +12,49 @@ $custom-grid-large: (
   direction: ltr,
 );
 
-$custom-grid-medium: (
-  columns: 8,
-  gutter: 26px,
-  media: 946px,
-  color: rgba(#00d4ff, 0.25),
-  direction: ltr,
-);
-
-$custom-grid-small: (
-  columns: 4,
-  gutter: 22px,
-  media: 319px,
-  color: rgba(#00d4ff, 0.25),
-  direction: ltr,
-);
-
 .grid-container {
-  @include grid-container($custom-grid-small);
-  padding: 0 $baseline;
-
-  @media (min-width: 700px) {
-    @include grid-container($custom-grid-medium);
-    padding: 0;
-	}
-
 	@media (min-width: 1200px) {
     @include grid-container($custom-grid-large);
-    max-width: 1020px;
+    max-width: 1500px;
     margin: 0 auto;
 	}
 }
 
-h1 {
-  font-size: modular-scale(5);
-  font-family: "Zigfrid-Regular";
+h1, h3,
+p {
+  font-family: "Zigfrid-Regular", $helvetica, sans-serif;
   font-weight: normal;
+  margin: 0;
 }
 
-h2 {
+h1 {
   font-size: modular-scale(4);
-  font-family: "Zigfrid-Light";
-  font-weight: normal;
 }
 
 h3 {
   font-size: modular-scale(3);
-  font-family: "Zigfrid-Regular";
-  font-weight: normal;
 }
 
 p,
-button {
+button,
+li {
   font-size: $base-font-size;
-  font-family: "Zigfrid-Light";
+  font-family: "Zigfrid-Light", $helvetica, sans-serif;
   font-weight: normal;
 }
 
-li {
-  font-size: modular-scale(1);
-  font-family: "Zigfrid-Light";
+p {
+  margin: 0 0 $small-spacing/2;
 }
 
-// h1 {
-//    font-size: 42px;
-//    line-height: $baseline;
-//    margin-bottom: 1.58rem *1.75;
-// }
-//
-// h2 {
-//    font-size: 36px;
-//    line-height: $baseline;
-//    margin-bottom: 1.58rem *1.5;
-// }
-//
-// h3 {
-//    font-size: 30px;
-//    line-height: $baseline;
-//    margin-bottom: 1.58rem *1.25;
-// }
-//
-// p {
-//    font-size: 1.5em;
-//    line-height: 1.58em;
-//    margin-bottom: 1.58rem;
-// }
+h1 {
+  margin: $small-spacing 0 $small-spacing/4;
+}
+
+h3 {
+  margin: $small-spacing /2 0 $small-spacing /4;
+}
+
+li {
+  margin-top: $small-spacing /8;
+}
